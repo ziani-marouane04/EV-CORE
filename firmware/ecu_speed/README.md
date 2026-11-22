@@ -1,29 +1,51 @@
-# ECU 1 — Vehicle Speed Acquisition
+# ECU Speed — Vehicle Speed Acquisition Module
 
-## Role
+## Overview
 
-This ECU is responsible for acquiring vehicle speed data and preparing it for transmission to the central ECU through the CAN bus.
+This module is dedicated to the development of the vehicle speed acquisition ECU within the EV-CORE project.
 
-## Intended Responsibilities
+Its purpose is to acquire, process and prepare vehicle speed information for transmission to the central ECU through the CAN bus.
 
-- Acquire vehicle speed information.
-- Process the acquired signal.
-- Prepare speed data for CAN transmission.
-- Communicate with the central ECU through CAN.
+This module represents my individual contribution to the EV-CORE embedded system project.
 
-## Hardware
+## Functional Role
 
-- STM32 microcontroller
-- Speed sensing interface (implementation to be documented)
+The ECU Speed module is responsible for:
 
-## Communication
+- Acquiring the speed-related signal.
+- Processing the acquired information to determine vehicle speed.
+- Preparing the speed data for CAN transmission.
+- Transmitting speed information to the central ECU.
+- Supporting integration into the distributed EV-CORE architecture.
 
-The speed information is intended to be transmitted to the central ECU through CAN.
+## Embedded Development
 
-Frame identifiers, data encoding, transmission frequency and implementation details will be documented as development progresses.
+The module is developed around an STM32 microcontroller using STM32 embedded development tools.
+
+The implementation, peripheral configuration, signal processing and communication logic will be documented as the development progresses.
+
+## System Integration
+
+The ECU Speed module is part of a distributed architecture composed of multiple STM32 ECUs.
+
+Its processed speed information is intended to be transmitted through CAN to the central ECU, which validates and aggregates information from the different modules.
+
+## Development Scope
+
+My work focuses on the vehicle speed acquisition ECU, including:
+
+- STM32 configuration and firmware development.
+- Speed signal acquisition.
+- Speed calculation and processing.
+- CAN communication integration.
+- Module testing and validation.
 
 ## Status
 
 **In Development**
 
-This module is part of the EV-CORE distributed embedded architecture.
+This module is currently under development as part of the EV-CORE academic engineering project.
+
+---
+
+*Individual contribution — Vehicle Speed Acquisition ECU for EV-CORE.*
