@@ -1,0 +1,7 @@
+C:/Users/CYBORG YAMI/Desktop/All folders/prjtstm_CubeIDE/Core/Src/main.c:71:5:main	1
+C:/Users/CYBORG YAMI/Desktop/All folders/prjtstm_CubeIDE/Core/Src/main.c:134:6:SystemClock_Config	3
+C:/Users/CYBORG YAMI/Desktop/All folders/prjtstm_CubeIDE/Core/Src/main.c:174:13:MX_TIM2_Init	6
+C:/Users/CYBORG YAMI/Desktop/All folders/prjtstm_CubeIDE/Core/Src/main.c:238:13:MX_USART1_UART_Init	2
+C:/Users/CYBORG YAMI/Desktop/All folders/prjtstm_CubeIDE/Core/Src/main.c:271:13:MX_GPIO_Init	1
+C:/Users/CYBORG YAMI/Desktop/All folders/prjtstm_CubeIDE/Core/Src/main.c:287:7:calculerVitesse	2
+C:/Users/CYBORG YAMI/Desktop/All folders/prjtstm_CubeIDE/Core/Src/main.c:308:6:Error_Handler	1
